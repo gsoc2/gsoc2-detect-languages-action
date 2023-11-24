@@ -1,0 +1,9 @@
+name: "gSOC2 Detect Languages"
+description: "Detect languages before running gSOC2 Map"
+author: gSOC2
+runs:
+  using: "node16"
+  main: "dist/index.js"
+branding:
+  icon: code
+  color: purple

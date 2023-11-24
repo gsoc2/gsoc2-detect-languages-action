@@ -1,0 +1,17 @@
+{
+  "name": "gsoc2-detect-languages-action",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "Unlicensed",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1",
+    "simple-git": "^3.21.0"
+  },
+  "scripts": {
+    "build": "ncc build src/action.js --license licenses.txt"
+  }
+}
